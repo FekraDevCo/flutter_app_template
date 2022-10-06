@@ -1,0 +1,106 @@
+widgets:
+  pagination:
+    error: "حدث خطأ غير متوقع. اضغط هنا لإعادة المحاولة"
+  input:
+    phoneNumber: "رقم الهاتف"
+
+auth:
+  signup:
+    username: "اسم المستخدم"
+    email: "البريد الالكتروني"
+    phoneNumber: "رقم الهاتف"
+    password: "كلمة المرور"
+    confirmPassword: "أعد كتابة كلمة المرور"
+    next: "التالي"
+    companyName: "اسم الشركة"
+    numWorkers: "عدد القوة العاملة"
+    categories: "الفئات"
+    commercialRecord: "السجل التجاري"
+    buildingRecord: "قيد المنشأة"
+    nationalCard: "البطاقة القومية للمفوض"
+    agreeToTerms: "الموالفقة على الشروط والأحكام"
+    logout: "تسجيل الخروج"
+    goToHomeScreen: "المتابعة للشاشة الرئيسية"
+    fixFormErrors: "مراجعة المعلومات"
+    upload: "تحميل"
+    iAgree: "أنا أوافق على"
+    termsAndCondtions: "الشروط و الأحكام"
+    ofSharik: "الخاصة بتطبيق شريك"
+    companyDescription: "وصف الشركة"
+    change: "تغيير"
+    category: "الرجاء اختيار ثلاث فئات أو أقل"
+    sendMessage: "إرسال رسالة"
+    emailSubject: "رفض طلب إنشاء حساب مزود خدمة"
+    review1:
+      waitingForAcceptance: "قيد انتظار قبول الطلب"
+      youHaveInvalidFields: "البيانات غير صالحة"
+      weCantAcceptYou: "فشل طلبك"
+      reviewSuccess: "تم قبول طلبك"
+    review2:
+      waitingForAcceptance: "تتم الآن عملية المراجعة لطلبك"
+      youHaveInvalidFields: "لم يتم نجاح المعاملة , الرجاء مراجعة"
+      weCantAcceptYou: "يمكنك التواصل معنا عن طريق ارسال رسالة في البريد الالكتروني"
+      reviewSuccess: "تم نجاح العملية لطلبك , تصفح الآن"
+  errors:
+    unknown: "حدث خطأ غير متوقع. الرجاء المحاولة مجددا"
+    invalidSmsCode: "الرمز الذي ادخلته غير صحيح. رجاء تأكد من الرمز ثم أعد المحاولة"
+    userNotRegistered: "مستخدم جديد؟ رجاء قم بالتسجيل قبل محاولة الدخول"
+    invalidPhoneNumber: "رقم هاتف غير صحيح"
+    userRegistered: "هذا المستخدم مسجل مسبقا"
+    emptyUsername: "اسم المستخدم مطلوب"
+    invalidEmail: "بريد الكتروني غير صالح"
+    wrongPassword: "كلمة السر أو البريد الإلكتروني غير صحيح"
+    weakPassword: "كلمة سر ضعيفة. اختر كلمة سر أخرى"
+    confirmPassword: "الحقل يجب أن يطابق حقل كلمة السر"
+    smsCodeNotSent: "تعذر ارسال الرمز. الرجاء المحاولة لاحقا"
+    networkError: "خطأ في الاتصال"
+    invalidCommercialRecord: "الرجاء ادخال سجل تجاري صالح"
+    invalidBuildingRecord: "الرجاء ادخال قيد منشأة صالح"
+    invalidNationalCard: "الرجاء ادخال بطاقة قومية صالح"
+    invalidNumWorkers: "الرجاء ادخال عدد قوة العاملة صالح"
+    errorCreatingProvider: "خطأ أثناء انشاء الحساب"
+    userNotAuthenticated: "لا يوجد مستخدم"
+    loadingProviderError: "خطأ أثناء تحميل بيانات المستخدم"
+    emptyCompanyName: "الرجاء ادخال اسم الشركة"
+    emptyCompanyDescription: "الرجاء ادخال وصف الشركة"
+    notSelectedCategories: "الرجاء اختيار فئة على الأقل"
+    tooManySelectedCategories: "يمكنك اختيار ثلاث فئات كحد أقصى"
+    didNotAgreeToTerms: "لم تقم بالموافقة على الشروط والأحكام"
+  loginPage:
+    title: "التسجيل"
+    enterPhoneNumber: "أدخل رقم الهاتف"
+    enterPhoneNumberSubtitle: "رقم الهاتف سيساعدنا في التحقق من الحساب، سنقوم بإرسال رمز التحقق للرقم المدخل"
+    loginButton: "تسجيل الدخول"
+    noAccount: "ليس لديك حساب؟"
+    createAccount: "أنشئ حساب جديد"
+  registerPage:
+    title: "التسجيل"
+    createNewAccount: "إنشاء حساب جديد"
+    createNewAccountSubtitle: "أنشئ حساب جديد لتتمتع بخدمات التطبيق"
+    registerButton: "تسجيل"
+    alreadyHaveAccount: "لديك حساب مسجل؟"
+    login: "قم بتسجيل الدخول"
+  confirmPhonePage:
+    title: "التحقق من رقم الهاتف"
+    subtitle: "سيقوم سقيا بإرسال رمز التحقق الى الرقم التالي"
+    confirmButton: "الحصول على الرمز"
+  verifyPhonePage:
+    title: "التحقق من الرقم"
+    enterCode: "أدخل رمز التحقق"
+    enterCodeSubtitle: "لقد قمنا بإرسال رسالة نصية برمز التحقق الى الرقم "
+    noCodeMessage: "لم تحصل على الرمز؟"
+    resendCode: "إعادة إرسال"
+    verifyButton: "تأكيد"
+
+otpSuccessDialog:
+  message: "تم التحقق من رقم الهاتف بنجاح"
+
+# LocaleSettings.setPluralResolver won't be generated without a key using pluralization
+_fix:
+  plural:
+    one: "1"
+    other: "{count}"
+
+authentication:
+  login:
+    title: ""

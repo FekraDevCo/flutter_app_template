@@ -1,0 +1,102 @@
+widgets:
+  pagination:
+    error: "Unexpected error occurred. Press here to try again"
+  input:
+    phoneNumber: "Phone number"
+
+auth:
+  signup:
+    username: "Username"
+    email: "Email address"
+    phoneNumber: "Phone number"
+    password: "Password"
+    confirmPassword: "Confirm the password"
+    next: "Next"
+    companyName: "Company name"
+    numWorkers: "Number of workers"
+    categories: "Categories"
+    commercialRecord: "Commercial record"
+    buildingRecord: "Building record"
+    nationalCard: "National card of agent"
+    agreeToTerms: "Agreement to terms and conditions"
+    logout: "Log out"
+    goToHomeScreen: "Go to home screen"
+    fixFormErrors: "Review information"
+    upload: "Upload"
+    iAgree: "I agree to"
+    termsAndCondtions: "Terms and conditions"
+    ofSharik: "of Sharik app"
+    companyDescription: "Company description"
+    change: "Change"
+    category: "Select three categories or less"
+    sendMessage: "Send a message"
+    emailSubject: "Declined to create a service provider account"
+    review1:
+      waitingForAcceptance: "Waiting for accepting the request"
+      youHaveInvalidFields: "Invalid data"
+      weCantAcceptYou: "Your request failed"
+      reviewSuccess: "You request was accepted"
+    review2:
+      waitingForAcceptance: "Right now your request is being reviewed"
+      youHaveInvalidFields: "You have invalid Fields in your form"
+      weCantAcceptYou: "You can contact us by sending a message in this email"
+      reviewSuccess: "Your request process was successful, you can browse now"
+  errors:
+    unknown: "Unexpected error occurred. Please try again."
+    invalidSmsCode: "The SMS code you entered is incorrect. Please check the code and try again."
+    userNotRegistered: "New user? Please register before trying to login"
+    invalidPhoneNumber: "Invalid phone number"
+    userRegistered: "User already registered"
+    emptyUsername: "Username is required"
+    invalidEmail: "Not a valid email address"
+    wrongPassword: "Email or password isn't correct"
+    weakPassword: "Password is weak. Choose another password"
+    confirmPassword: "Field must match password field"
+    smsCodeNotSent: "Couldn't send the sms code. Please try again later"
+    networkError: "Network error"
+    invalidCommercialRecord: "Please upload a valid commercial record"
+    invalidBuildingRecord: "Please upload a valid building record"
+    invalidNationalCard: "Please upload a valid national card"
+    invalidNumWorkers: "Please enter a valid number of workers"
+    errorCreatingProvider: "Error while creating account"
+    userNotAuthenticated: "No user found"
+    loadingProviderError: "Error while loading user info"
+    emptyCompanyName: "Please enter the companyName"
+    emptyCompanyDescription: "Please enter the company description"
+    notSelectedCategories: "Please select a category at lease"
+    tooManySelectedCategories: "You can select three categories at max"
+    didNotAgreeToTerms: "You did not agree to terms and conditions"
+  loginPage:
+    title: "Login"
+    enterPhoneNumber: "Enter Phone Number"
+    enterPhoneNumberSubtitle: "Phone number will help us verify the account, we will send a verification code to the entered number"
+    loginButton: "Login"
+    noAccount: "Don't have an account?"
+    createAccount: "Create a new account"
+  registerPage:
+    title: "Registration"
+    createNewAccount: "Create a new account"
+    createNewAccountSubtitle: "Create a new account to enjoy the services of the app"
+    registerButton: "Register"
+    alreadyHaveAccount: "Already have an account?"
+    login: "Login"
+  confirmPhonePage:
+    title: "Confirm phone number"
+    subtitle: "Soqia will send the verification code to the following phone number"
+    confirmButton: "Get SMS code"
+  verifyPhonePage:
+    title: "Phone Verification"
+    enterCode: "Enter verification code"
+    enterCodeSubtitle: "We've sent you an SMS message with the verification code to the number "
+    noCodeMessage: "Didn't get the code?"
+    resendCode: "Resend"
+    verifyButton: "Confirm"
+
+otpSuccessDialog:
+  message: "Phone number verified successfully"
+
+# LocaleSettings.setPluralResolver won't be generated without a key using pluralization
+_fix:
+  plural:
+    one: "1"
+    other: "{count}"

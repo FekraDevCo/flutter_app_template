@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1067052065152",
+    "project_id": "foodo-53cd5",
+    "storage_bucket": "foodo-53cd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067052065152:android:d5080a74b8bf44563e2165",
+        "android_client_info": {
+          "package_name": "com.fekra.foodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067052065152-u2o5tqm3fg09ed16mcl24hth6j7uoa42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3JPyEJkA6V9MGAGdMDym2HUS_dSZ7gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067052065152-u2o5tqm3fg09ed16mcl24hth6j7uoa42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067052065152:android:981e64dbc6b56e3b3e2165",
+        "android_client_info": {
+          "package_name": "com.fekra.foodo.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067052065152-u2o5tqm3fg09ed16mcl24hth6j7uoa42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3JPyEJkA6V9MGAGdMDym2HUS_dSZ7gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067052065152-u2o5tqm3fg09ed16mcl24hth6j7uoa42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
